@@ -1,6 +1,9 @@
 var CACHE_NAME = 'pwa-test-cache-v1';
 var urlsToCache = [
-  '/',
+  'index.html',
+  'css/main.css',
+  'js/main.js',
+  'https://code.jquery.com/jquery-3.5.1.js',
   'icon/android-icon-192x192-dunplab-manifest-28009.png',
   'icon/apple-icon-114x114-dunplab-manifest-28009.png',
   'icon/apple-icon-120x120-dunplab-manifest-28009.png',
@@ -13,10 +16,7 @@ var urlsToCache = [
   'icon/apple-icon-76x76-dunplab-manifest-28009.png',
   'icon/favicon-16x16-dunplab-manifest-28009.png',
   'icon/favicon-32x32-dunplab-manifest-28009.png',
-  'icon/favicon-96x96-dunplab-manifest-28009.png',
-  'css/main.css',
-  'js/main.js',
-  'https://code.jquery.com/jquery-3.5.1.js'
+  'icon/favicon-96x96-dunplab-manifest-28009.png'
 ];
 
 self.addEventListener('install', function(event) {
